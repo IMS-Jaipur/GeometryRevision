@@ -181,6 +181,10 @@ td.c,th.c{text-align:center}
 .fig .dot{fill:var(--ink)}.fig .dot2{fill:var(--bg);stroke:var(--ink);stroke-width:1.5}
 .fig .lnA{stroke:var(--teal);stroke-width:2}.fig .pr{stroke:var(--amber);stroke-width:2}.fig .pr2{stroke:var(--amber);stroke-width:1.5;stroke-dasharray:4 3}
 .fig .sm{font-size:10px;fill:var(--muted)}
+.chap-h .cc{margin-left:auto;font-family:var(--f-mono);font-size:12.5px;color:var(--muted);white-space:nowrap;align-self:center}
+.chap-h .cc b{color:var(--teal);font-weight:600}
+.mnav .mc{font-family:var(--f-mono);font-size:11.5px;color:var(--teal);margin-left:4px}
+.chap-h{flex-wrap:wrap}
 .sol{border-top:1px dashed var(--line);padding-top:8px;font-size:14.5px;color:var(--ink)}
 .sol b{color:var(--teal)}
 .q .lvl{font-family:var(--f-mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--amber);margin-left:6px}
@@ -267,7 +271,7 @@ footer .inner{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap
     </div>
     <div class="prog" title="Boxes marked as memorised"><div class="track"><div class="fill" id="pfill"></div></div><span id="ptext">0/0</span></div>
     <nav class="mnav" aria-label="Chapters">
-      <a href="#ch1">1 Lines &amp; Triangles</a><a href="#ch2">2 Trigonometry</a><a href="#ch3">3 Quadrilaterals</a><a href="#ch4">4 Circles</a><a href="#ch5">5 Mensuration</a><a href="#ch6">6 Coordinate</a><a href="#rapid">Rapid-fire</a><a href="#test">Self-test</a>
+      <a href="#ch1">1 Lines &amp; Triangles <span class="mc" data-c="ch1"></span></a><a href="#ch2">2 Trigonometry <span class="mc" data-c="ch2"></span></a><a href="#ch3">3 Quadrilaterals <span class="mc" data-c="ch3"></span></a><a href="#ch4">4 Circles <span class="mc" data-c="ch4"></span></a><a href="#ch5">5 Mensuration <span class="mc" data-c="ch5"></span></a><a href="#ch6">6 Coordinate <span class="mc" data-c="ch6"></span></a><a href="#rapid">Rapid-fire</a><a href="#test">Self-test</a>
     </nav>
   </div>
 </div>
@@ -292,7 +296,7 @@ footer .inner{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap
 
 <!-- ================= 1. TRIANGLES ================= -->
 <section class="chap" id="ch1">
-  <div class="chap-h"><span class="num">1</span><h2>Lines, Angles &amp; Triangles</h2></div>
+  <div class="chap-h"><span class="num">1</span><h2>Lines, Angles &amp; Triangles</h2><span class="cc" title="Boxes memorised in this chapter"><b data-c="ch1"></b> memorised</span></div>
 
   <div class="sub" id="s1-0">
     <h3><span class="sn">1.1</span>Lines &amp; angles</h3>
@@ -515,7 +519,7 @@ footer .inner{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap
 
 <!-- ================= 2. TRIGONOMETRY ================= -->
 <section class="chap" id="ch2">
-  <div class="chap-h"><span class="num">2</span><h2>Trigonometry</h2></div>
+  <div class="chap-h"><span class="num">2</span><h2>Trigonometry</h2><span class="cc" title="Boxes memorised in this chapter"><b data-c="ch2"></b> memorised</span></div>
   <div class="sub" id="s2-1">
     <h3><span class="sn">2.1</span>Ratios &amp; the standard table</h3>
     <div class="tw"><table>
@@ -585,7 +589,7 @@ footer .inner{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap
 
 <!-- ================= 3. QUADRILATERALS ================= -->
 <section class="chap" id="ch3">
-  <div class="chap-h"><span class="num">3</span><h2>Quadrilaterals &amp; Polygons</h2></div>
+  <div class="chap-h"><span class="num">3</span><h2>Quadrilaterals &amp; Polygons</h2><span class="cc" title="Boxes memorised in this chapter"><b data-c="ch3"></b> memorised</span></div>
   <div class="sub" id="s3-1">
     <h3><span class="sn">3.1</span>General quadrilateral</h3>
     <ul>
@@ -691,7 +695,7 @@ footer .inner{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap
 
 <!-- ================= 4. CIRCLES ================= -->
 <section class="chap" id="ch4">
-  <div class="chap-h"><span class="num">4</span><h2>Circles</h2></div>
+  <div class="chap-h"><span class="num">4</span><h2>Circles</h2><span class="cc" title="Boxes memorised in this chapter"><b data-c="ch4"></b> memorised</span></div>
   <div class="sub" id="s4-1">
     <h3><span class="sn">4.1</span>Basics</h3>
     <div class="box f"><div class="tag"><span>Formula · Circle, arc, sector, segment</span></div>
@@ -760,7 +764,7 @@ footer .inner{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap
 
 <!-- ================= 5. MENSURATION ================= -->
 <section class="chap" id="ch5">
-  <div class="chap-h"><span class="num">5</span><h2>3D Figures &amp; Mensuration</h2></div>
+  <div class="chap-h"><span class="num">5</span><h2>3D Figures &amp; Mensuration</h2><span class="cc" title="Boxes memorised in this chapter"><b data-c="ch5"></b> memorised</span></div>
   <div class="sub" id="s5-1">
     <h3><span class="sn">5.1</span>The master table</h3>
     <div class="tw"><table>
@@ -874,7 +878,7 @@ footer .inner{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap
 
 <!-- ================= 6. COORDINATE GEOMETRY ================= -->
 <section class="chap" id="ch6">
-  <div class="chap-h"><span class="num">6</span><h2>Coordinate Geometry</h2></div>
+  <div class="chap-h"><span class="num">6</span><h2>Coordinate Geometry</h2><span class="cc" title="Boxes memorised in this chapter"><b data-c="ch6"></b> memorised</span></div>
   <div class="sub" id="s6-1">
     <h3><span class="sn">6.1</span>Points: distance, section, centres</h3>
     <div class="figs"><figure><svg class="dg" viewBox="0 0 200 170" role="img" aria-label="Four quadrants with signs"><line class="ax" x1="10" y1="85" x2="190" y2="85"/><line class="ax" x1="100" y1="160" x2="100" y2="10"/><text class="sm" x="182" y="80">x</text><text class="sm" x="105" y="20">y</text><text class="tt" x="145" y="46.0" text-anchor="middle">I</text><text x="145" y="62.0" text-anchor="middle">(+, +)</text><text class="tt" x="55" y="46.0" text-anchor="middle">II</text><text x="55" y="62.0" text-anchor="middle">(−, +)</text><text class="tt" x="55" y="118.0" text-anchor="middle">III</text><text x="55" y="134.0" text-anchor="middle">(−, −)</text><text class="tt" x="145" y="118.0" text-anchor="middle">IV</text><text x="145" y="134.0" text-anchor="middle">(+, −)</text></svg><figcaption>Signs of (x, y) in the four quadrants.</figcaption></figure><figure><svg class="dg" viewBox="0 0 205 165" role="img" aria-label="Distance and section formula"><line class="gr" x1="18" y1="150" x2="18" y2="24"/><line class="gr" x1="36" y1="150" x2="36" y2="24"/><line class="gr" x1="54" y1="150" x2="54" y2="24"/><line class="gr" x1="72" y1="150" x2="72" y2="24"/><line class="gr" x1="90" y1="150" x2="90" y2="24"/><line class="gr" x1="108" y1="150" x2="108" y2="24"/><line class="gr" x1="126" y1="150" x2="126" y2="24"/><line class="gr" x1="144" y1="150" x2="144" y2="24"/><line class="gr" x1="162" y1="150" x2="162" y2="24"/><line class="gr" x1="180" y1="150" x2="180" y2="24"/><line class="gr" x1="198" y1="150" x2="198" y2="24"/><line class="gr" x1="18" y1="150" x2="198" y2="150"/><line class="gr" x1="18" y1="132" x2="198" y2="132"/><line class="gr" x1="18" y1="114" x2="198" y2="114"/><line class="gr" x1="18" y1="96" x2="198" y2="96"/><line class="gr" x1="18" y1="78" x2="198" y2="78"/><line class="gr" x1="18" y1="60" x2="198" y2="60"/><line class="gr" x1="18" y1="42" x2="198" y2="42"/><line class="gr" x1="18" y1="24" x2="198" y2="24"/><line class="ax" x1="18" y1="150" x2="198" y2="150"/><line class="ax" x1="18" y1="150" x2="18" y2="24"/><text class="sm" x="190" y="145">x</text><text class="sm" x="23" y="34">y</text><polyline class="am" stroke-dasharray="4 3" points="36,132 180,132 180,42"/><line class="tl" x1="36" y1="132" x2="180" y2="42"/><circle class="dot" cx="36" cy="132" r="3"/><circle class="dot" cx="180" cy="42" r="3"/><circle class="dot" cx="122.4" cy="78.0" r="3.5"/><text x="30" y="147">A(x₁, y₁)</text><text x="132" y="36">B(x₂, y₂)</text><text x="106.4" y="71.0">P</text><text class="tt" x="69.2" y="99.0">m</text><text class="tt" x="141.2" y="54.0">n</text><text class="ta" x="118.8" y="127">x₂ − x₁</text><text class="ta" x="136" y="96">y₂ − y₁</text></svg><figcaption>Distance AB is the hypotenuse of the amber right triangle. P splits AB in m : n.</figcaption></figure></div>
